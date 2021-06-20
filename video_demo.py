@@ -16,9 +16,9 @@ parser.add_argument('--multiplier', type=float,
                     default=1.0)  # only for mobilenet
 parser.add_argument('--scale_factor', type=float, default=0.7125)
 parser.add_argument('--input_file', type=str,
-                    help="Give the  video file location", default="./video/P2-5-train.mp4")
+                    help="Give the  video file location", default="./video/P4-5-train.mp4")
 parser.add_argument('--output_file', type=str,
-                    help="Give the  video file location", default="./video-output/pose-p2-5.mp4")
+                    help="Give the  video file location", default="./video-output/pose-p4-5.mp4")
 args = parser.parse_args()
 
 
